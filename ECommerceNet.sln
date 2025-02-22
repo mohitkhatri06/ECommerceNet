@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceNet", "ECommerceNet\ECommerceNet.csproj", "{725B55AC-820F-4C0B-A123-99A7E4531C93}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceNetWeb", "ECommerceNet\ECommerceNetWeb.csproj", "{725B55AC-820F-4C0B-A123-99A7E4531C93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceNet.DataAccess", "ECommerceNet.DataAccess\ECommerceNet.DataAccess.csproj", "{A6932F61-DDC9-4830-83D5-B41C54476B1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceNet.Models", "ECommerceNet.Models\ECommerceNet.Models.csproj", "{31FC21B5-4832-4980-A775-36C6E7095767}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceNet.Utility", "ECommerceNet.Utility\ECommerceNet.Utility.csproj", "{3531B8DB-9815-4796-9F98-3943844103C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{725B55AC-820F-4C0B-A123-99A7E4531C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{725B55AC-820F-4C0B-A123-99A7E4531C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{725B55AC-820F-4C0B-A123-99A7E4531C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6932F61-DDC9-4830-83D5-B41C54476B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6932F61-DDC9-4830-83D5-B41C54476B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6932F61-DDC9-4830-83D5-B41C54476B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6932F61-DDC9-4830-83D5-B41C54476B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31FC21B5-4832-4980-A775-36C6E7095767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31FC21B5-4832-4980-A775-36C6E7095767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31FC21B5-4832-4980-A775-36C6E7095767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31FC21B5-4832-4980-A775-36C6E7095767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3531B8DB-9815-4796-9F98-3943844103C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3531B8DB-9815-4796-9F98-3943844103C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3531B8DB-9815-4796-9F98-3943844103C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3531B8DB-9815-4796-9F98-3943844103C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

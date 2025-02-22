@@ -1,9 +1,9 @@
 ﻿using ECommerceNet.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace ECommerceNet.Data
+namespace ECommerceNet.DataAccess.Data
 {
-    public class ApplicationDbContext: DbContext
+    public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 

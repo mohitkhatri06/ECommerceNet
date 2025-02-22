@@ -1,8 +1,8 @@
-﻿using ECommerceNet.Data;
-using ECommerceNet.Models;
+﻿using ECommerceNet.Models;
 using Microsoft.AspNetCore.Mvc;
+using ECommerceNet.DataAccess.Data;
 
-namespace ECommerceNet.Controllers
+namespace ECommerceNetWeb.Controllers
 {
     public class CategoryController : Controller
     {
